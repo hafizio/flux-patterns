@@ -166,7 +166,7 @@ This can be considered view-related business logic.
 An example might be a `CountdownStore.isItemBehind(item)`.
 
 Another option is to put that view-related business logic in your
-Rect components, but we believe it is generally better to put it
+React components, but we believe it is generally better to put it
 in your getter methods on the store so it's reusable by other
 components.
 
